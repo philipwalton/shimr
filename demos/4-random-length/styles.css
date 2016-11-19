@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+
+p {
+  border: 5px solid;
+  font-size: 1q;
+  height: calc(random / 2);
+  width: random;
+  min-height: min-content;
+  min-width: min-content;
+}
+
+p[id*="5q"] {
+  color: green;
+}
+
+p {
+  width: 50%;
+}
+
+
+@media (min-width: 30em) {
+  p {
+    font-size: 2q;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "shimr",
+  "description": "A proof-of-concept for building CSS polyfills",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Philip Walton",
+    "url": "https://philipwalton.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/philipwalton/shimr.git"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "postcss": "^5.2.5"
+  }
+}
